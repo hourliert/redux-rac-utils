@@ -1,6 +1,6 @@
 # redux-rac-utils
-[![Build Status](https://travis-ci.org/hourliert/redux-rac-utils.svg?branch=master)](https://travis-ci.org/hourliert/redux-rac-utils)
-[![codecov](https://codecov.io/gh/hourliert/redux-rac-utils/branch/master/graph/badge.svg)](https://codecov.io/gh/hourliert/redux-rac-utils)
+[![Build Status](https://travis-ci.org/FoodMeUp/redux-rac-utils.svg?branch=master)](https://travis-ci.org/FoodMeUp/redux-rac-utils)
+[![codecov](https://codecov.io/gh/FoodMeUp/redux-rac-utils/branch/master/graph/badge.svg)](https://codecov.io/gh/FoodMeUp/redux-rac-utils)
 
 This is a set of utils for creating redux actions creators and reducers.
 
