@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hourliert/redux-rac-utils.git"
+    "url": "git+https://github.com/FoodMeUp/redux-rac-utils.git"
   },
-  "author": "Thomas Hourlier <hourliert@gmail.com> (https://github.com/hourliert)",
+  "author": "Thomas Hourlier <hourliert@gmail.com> (https://github.com/FoodMeUp)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hourliert/redux-rac-utils/issues"
+    "url": "https://github.com/FoodMeUp/redux-rac-utils/issues"
   },
-  "homepage": "https://github.com/hourliert/redux-rac-utils#readme",
+  "homepage": "https://github.com/FoodMeUp/redux-rac-utils#readme",
   "jest": {
     "testPathDirs": [
       "src"
