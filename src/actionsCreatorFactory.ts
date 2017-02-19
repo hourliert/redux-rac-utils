@@ -11,13 +11,13 @@ function id2<T>(_: any, y: T): T {
 export default function makeActionsCreator<P, M>(
   type: string,
   payloadCreator?: P|IPayloadCreator<P>,
-  metaCreator?: IMetaCreator<M>,
+  metaCreator?: M|IMetaCreator<M>,
 ): IActionCreator<P, M> {
   const finalPayloadCreator: IPayloadCreator<P> = payloadCreator instanceof Function ? payloadCreator : id;
   const finalMetaCreator: IMetaCreator<M> = metaCreator instanceof Function ? metaCreator : id2;
 
   return function(...args: any[]): IAction<P, M> {
-    let action: IAction<P, M> = {
+    const action: IAction<P, M> = {
       meta: finalMetaCreator(...args),
       payload: finalPayloadCreator(...args),
       type,
