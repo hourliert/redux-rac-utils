@@ -1,6 +1,6 @@
 {
   "name": "redux-rac-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Actions, reducers & epics for managing crud redux state",
   "main": "lib/index.js",
   "module": "es/index.js",
