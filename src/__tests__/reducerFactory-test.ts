@@ -5,8 +5,8 @@ describe('reducerFactory', () => {
     const reducer = reducerFactory(
       0,
       {
-        DEC: (state: number, action: { payload: number }): number => state - action.payload,
-        INC: (state: number, action: { payload: number }): number => state + action.payload,
+        DEC: (state: number, action: { type: string, payload: number }): number => state - action.payload,
+        INC: (state: number, action: { type: string, payload: number }): number => state + action.payload,
       },
     );
 
