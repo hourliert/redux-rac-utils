@@ -6,6 +6,7 @@ before_install: npm install -g codecov
 after_success:
 - codecov -e TRAVIS_NODE_VERSION
 deploy:
+  skip_cleanup: true
   provider: npm
   email: hourliert@gmail.com
   api_key:
